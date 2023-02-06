@@ -15,7 +15,7 @@
 #
 #    docker build -t cbft-builder:latest --no-cache=true .
 #
-FROM golang:1.8.1
+FROM golang:1.20
 
 MAINTAINER Steve Yen <steve.yen@gmail.com>
 
